@@ -1,0 +1,41 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+}
+.contatos {
+  display: flex;
+  justify-items: center;
+}
+#contato {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ff4081;
+}
+#formulario {
+  width: 478px;
+}
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 820px;
+
+  padding: 65px 37px;
+}
+.dados {
+  border: 1px solid #686868;
+  border-radius: 7px;
+}
+#mensagem {
+  border: 1px solid #686868;
+  border-radius: 7px;
+}
+#botao {
+  background: #ff4081;
+  border: 1px solid #ff4081;
+  border-radius: 50px;
+  padding: 8px;
+  font-weight: 800;
+  font-size: 16px;
+  color: #ffff;
+}
