@@ -2,14 +2,20 @@
   font-family: "Ubuntu", sans-serif;
   box-sizing: border-box;
 }
+main {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
 .contatos {
   display: flex;
   justify-items: center;
+  align-content: space-between;
 }
 #contato {
   font-weight: 700;
   font-size: 40px;
   color: #ff4081;
+  margin: 40px;
 }
 #formulario {
   width: 478px;
@@ -18,17 +24,20 @@ form {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 820px;
-
-  padding: 65px 37px;
+  gap: 15px;
 }
 .dados {
+  display: flex;
   border: 1px solid #686868;
   border-radius: 7px;
+  padding: 10px;
+  padding-right: 450px;
 }
 #mensagem {
   border: 1px solid #686868;
   border-radius: 7px;
+  padding: 10px;
+  padding-right: 412px;
 }
 #botao {
   background: #ff4081;
