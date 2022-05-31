@@ -15,36 +15,79 @@ main {
   font-weight: 700;
   font-size: 40px;
   color: #ff4081;
-  margin: 40px;
+  margin: 40px 0px;
 }
 #formulario {
   width: 478px;
 }
 form {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   gap: 15px;
+  margin: 0 auto;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: #ffff;
 }
 .dados {
   display: flex;
   border: 1px solid #686868;
   border-radius: 7px;
   padding: 10px;
-  padding-right: 450px;
+  padding-right: 400px;
 }
 #mensagem {
   border: 1px solid #686868;
   border-radius: 7px;
   padding: 10px;
-  padding-right: 412px;
+  padding-right: 365px;
 }
 #botao {
   background: #ff4081;
   border: 1px solid #ff4081;
   border-radius: 50px;
-  padding: 8px;
+  padding: 8px 30px;
   font-weight: 800;
   font-size: 16px;
   color: #ffff;
+}
+#botao:hover {
+  background: #2e948a;
+  transition: all 300ms ease-out;
+}
+#botao,
+select {
+  cursor: pointer;
+}
+#botaozinho {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 1040px) {
+  #foto {
+    display: none;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .dados {
+    padding: 8x;
+    padding-right: 190px;
+  }
+  #mensagem {
+    padding: 8px;
+    padding-right: 160px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .dados {
+    padding: 8x;
+    padding-right: 110px;
+  }
+  #mensagem {
+    padding: 8px;
+    padding-right: 80px;
+  }
 }
