@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap");
 * {
   box-sizing: border-box;
-
+  text-decoration: none;
   font-family: "Ubuntu", sans-serif;
 }
 main {
@@ -26,11 +26,14 @@ h2 {
   width: 100%;
   display: flex;
   justify-content: center;
+
+  margin-top: 40px;
 }
 .curso {
   display: flex;
   justify-content: center;
   flex-direction: column;
+
   padding: 0px 30px;
 }
 
@@ -40,18 +43,60 @@ h3 {
   color: #ff4081;
   padding: 15px;
 }
-
+hr {
+  margin-top: 35px;
+}
 p {
+  display: flex;
+  justify-content: center;
   font-weight: 300;
   font-size: 18px;
-
   padding-bottom: 20px;
 }
 .comecar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
   background: #419488;
   border-radius: 62px;
   border: 1px solid #419488;
   font-weight: 400;
   font-size: 20px;
   color: #ffffff;
+}
+@media only screen and (max-width: 750px) {
+  .conteiner-cursos img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .conteiner-cursos {
+    width: 100%;
+    padding: 0;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .começar {
+    width: 180px;
+  }
+  footer {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
 }
