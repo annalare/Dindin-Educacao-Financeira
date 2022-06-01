@@ -83,7 +83,6 @@ h2 {
   display: flex;
   text-align: center;
   align-content: center;
-
   background: #ff4081;
   border-radius: 62px;
   border: 1px solid #ff4081;
@@ -93,17 +92,20 @@ h2 {
   font-size: 20px;
   color: #ffffff;
 }
-
+.personagens {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
 #container-pessoas {
   display: flex;
   flex-wrap: wrap;
-  margin: 30px;
 }
 .container-pessoas1 {
   display: flex;
-  width: 550px;
-  height: 100px;
-  margin: 40px;
+  padding: 50px;
+  width: 600px;
+  height: 200px;
 }
 .container-pessoas1 img {
   padding: 0px 30px;
@@ -113,22 +115,111 @@ h2 {
   font-size: 18px;
   font-family: "Nunito", sans-serif;
 }
+
+.conteudo-div {
+  width: 100px;
+}
 .container-pessoas1 #name {
   font-weight: 400;
 }
 #pessoas {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-right: 650px;
+  justify-content: flex-start;
+  flex-direction: column;
   text-align: center;
   font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 37px;
   color: #009688;
 }
+
+#todososconteudos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background: #f6f6f6;
+}
+#maisconteudo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 37px;
+  color: #009688;
+  padding: 60px;
+}
+#todososconteudos-container {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.conteudo {
+  padding: 20px 35px;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+}
+.conteudo .conteudo-div {
+  font-weight: 700;
+  font-size: 27px;
+  font-family: "Ubuntu", sans-serif;
+  color: #009688;
+}
+.conteudo p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+#posts {
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  width: 250px;
+  margin-top: 30px;
+  font-size: 25px;
+  padding: 15px;
+  color: #ff4081;
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+}
 @media only screen and (max-width: 950px) {
   #banner1 img {
     display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container-pessoas1 {
+    justify-content: center;
+    flex-direction: column;
+    width: 340px;
+    height: 300px;
+  }
+  .container-pessoas1 img {
+    width: 150px;
+  }
+  .conteudo p {
+    width: 120px;
+  }
+  .conteudo img {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  header {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  * {
+    padding: 0;
   }
 }
