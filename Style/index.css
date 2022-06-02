@@ -10,6 +10,7 @@
   margin-top: 125px;
   margin-bottom: 100px;
 }
+
 #texto1 {
   display: flex;
   font-family: "Ubuntu", sans-serif;
@@ -95,9 +96,10 @@ h2 {
 }
 .personagens {
   display: flex;
-  align-items: flex-start;
+
   flex-direction: column;
 }
+
 #container-pessoas {
   display: flex;
   flex-wrap: wrap;
@@ -142,7 +144,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   margin-top: 40px;
-  margin-bottom: 30px;
+
   background: #f6f6f6;
 }
 #maisconteudo {
@@ -189,6 +191,7 @@ h2 {
   color: #ff4081;
   border: 2px solid #ff4081;
   border-radius: 62px;
+  margin-bottom: 30px;
 }
 @media only screen and (max-width: 950px) {
   #banner1 img {
@@ -206,10 +209,15 @@ h2 {
     width: 150px;
   }
   .conteudo p {
-    width: 120px;
+    width: 100%px;
   }
   .conteudo img {
-    width: 280px;
+    width: 100%;
+  }
+  #todososconteudos-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
   }
 }
 
@@ -220,7 +228,12 @@ h2 {
   main {
     width: 100%;
   }
-  * {
-    padding: 0;
+
+  .conteudo p {
+    width: 100%;
+  }
+
+  .personagens {
+    width: 100%;
   }
 }

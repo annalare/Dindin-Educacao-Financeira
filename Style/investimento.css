@@ -40,6 +40,9 @@ p {
   align-items: center;
   border: 3px solid #8e8e8e;
 }
+hr {
+  margin-top: 35px;
+}
 .videoaula {
   display: flex;
   align-items: center;
