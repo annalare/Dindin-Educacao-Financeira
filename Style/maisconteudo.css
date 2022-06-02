@@ -69,7 +69,17 @@ h2 {
     width: 100%;
     flex-wrap: wrap;
   }
-
+  @media only screen and (max-width: 500px) {
+    .container-hand {
+      width: 100%;
+    }
+    .container-hand img {
+      width: 100%;
+    }
+    .container-hand .texto-p {
+      width: 100%;
+    }
+  }
   @media only screen and (max-width: 400px) {
     .container-conteudo {
       width: 100%;
