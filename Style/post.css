@@ -129,13 +129,17 @@ p {
   @media only screen and (max-width: 400px) {
     .curso {
       width: 100%;
-      .
+      align-items: center;
     }
-    .curso img{
+    .curso img {
       width: 100%;
     }
     .curso p {
       width: 100%;
+    }
+    .container-cursos {
+      align-items: center;
+      justify-content: center;
     }
   }
 }
