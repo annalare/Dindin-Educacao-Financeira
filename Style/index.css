@@ -239,6 +239,10 @@ h2 {
     justify-content: center;
     width: 100%;
   }
+  .personagens {
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 390px) {
