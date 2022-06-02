@@ -114,6 +114,11 @@ p {
   }
 }
 @media only screen and (max-width: 500px) {
+  .curso {
+    width: 100%;
+    align-items: center;
+  }
+
   article {
     padding: 3px 5px;
   }
@@ -126,20 +131,31 @@ p {
   .curso {
     margin: 0;
   }
-  @media only screen and (max-width: 400px) {
-    .curso {
-      width: 100%;
-      align-items: center;
-    }
-    .curso img {
-      width: 100%;
-    }
-    .curso p {
-      width: 100%;
-    }
-    .container-cursos {
-      align-items: center;
-      justify-content: center;
-    }
+
+  @media only screen and (max-width: 440px) {
+  }
+  .curso {
+    width: 100%;
+    align-items: center;
+  }
+  .container-cursos-curso {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .curso {
+    width: 100%;
+    align-items: center;
+  }
+  .curso img {
+    width: 100%;
+  }
+  .curso p {
+    width: 100%;
+  }
+  .container-cursos {
+    align-items: center;
+    justify-content: center;
   }
 }
