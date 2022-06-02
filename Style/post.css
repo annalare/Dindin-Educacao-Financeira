@@ -115,7 +115,7 @@ p {
 }
 @media only screen and (max-width: 500px) {
   article {
-    padding: 0;
+    padding: 3px 5px;
   }
   h1 {
     width: 100%;
@@ -125,5 +125,17 @@ p {
   }
   .curso {
     margin: 0;
+  }
+  @media only screen and (max-width: 400px) {
+    .curso {
+      width: 100%;
+      .
+    }
+    .curso img{
+      width: 100%;
+    }
+    .curso p {
+      width: 100%;
+    }
   }
 }
