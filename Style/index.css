@@ -5,8 +5,9 @@
 }
 .primeirasec {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  margin: 0 auto;
   margin-top: 125px;
   margin-bottom: 100px;
 }
@@ -19,7 +20,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 0 auto;
+
   margin-bottom: 120px;
 }
 
@@ -47,14 +48,18 @@ h2 {
   border-radius: 62px;
   padding: 8px;
 }
+
+.segundasec {
+  background-color: #f6f6f6;
+}
 .container-cursos {
   display: flex;
   align-self: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  background-color: #f6f6f6;
   padding: 100px;
+  margin: 0 auto;
 }
 .curso {
   display: flex;
@@ -99,8 +104,8 @@ h2 {
 }
 .personagens {
   display: flex;
-
   flex-direction: column;
+  margin: 0 auto;
 }
 
 #container-pessoas {
@@ -143,15 +148,17 @@ h2 {
   color: #009688;
 }
 
+.quartasec {
+  background-color: #f6f6f6;
+}
 #todososconteudos {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
   margin-top: 40px;
-
-  background: #f6f6f6;
 }
 #maisconteudo {
   display: flex;

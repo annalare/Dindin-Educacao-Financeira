@@ -5,13 +5,21 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+.wrapper {
+  max-width: 1440px;
+}
+
+header {
+  background-color: #2e948a;
+}
+
 #container-logo {
-  background: #2e948a;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 117px;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 #navbar ul {
   display: flex;
@@ -33,8 +41,10 @@
 #navbar ul li a {
   color: #fdfdfd;
 }
-.rodape {
+footer {
   background-color: #2e948a;
+}
+.rodape {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -43,6 +53,7 @@
   font-weight: 400;
   color: #fdfdfd;
   height: 237px;
+  margin: 0 auto;
 }
 .rodape ul li {
   list-style: none;
@@ -66,7 +77,6 @@
 .rodape a {
   color: #ffffff;
 }
-
 @media only screen and (max-width: 1024px) {
   header {
     width: 100%;
