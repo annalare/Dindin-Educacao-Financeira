@@ -57,13 +57,16 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  padding: 10px;
   width: 200px;
   background: #419488;
   border-radius: 62px;
   border: 1px solid #419488;
   font-weight: 400;
   font-size: 20px;
+  color: #ffffff;
+}
+.comecar a {
   color: #ffffff;
 }
 @media only screen and (max-width: 750px) {

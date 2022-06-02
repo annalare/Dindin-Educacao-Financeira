@@ -10,7 +10,9 @@
   margin-top: 125px;
   margin-bottom: 100px;
 }
-
+.curso .botao a {
+  color: #f6f6f6;
+}
 #texto1 {
   display: flex;
   font-family: "Ubuntu", sans-serif;
@@ -32,6 +34,7 @@ h2 {
   color: #555555;
   font-weight: 400;
   font-size: 27px;
+  padding: 15px 0px;
 }
 
 #saber {
@@ -118,6 +121,9 @@ h2 {
   font-size: 18px;
   font-family: "Nunito", sans-serif;
 }
+.conteudo:hover {
+  box-shadow: 1px 4px 4px 0px rgb(0 0 0 / 40%);
+}
 
 .conteudo-div {
   width: 100px;
@@ -167,9 +173,13 @@ h2 {
   padding: 20px 35px;
   display: flex;
   flex-direction: column;
-  width: 380px;
+
+  width: 400px;
 }
 .conteudo .conteudo-div {
+  align-items: center;
+  width: 280px;
+  display: flex;
   font-weight: 700;
   font-size: 27px;
   font-family: "Ubuntu", sans-serif;
@@ -180,6 +190,7 @@ h2 {
   font-weight: 400;
   font-size: 18px;
 }
+
 #posts {
   text-decoration: none;
   font-family: "Ubuntu", sans-serif;
@@ -192,6 +203,14 @@ h2 {
   border: 2px solid #ff4081;
   border-radius: 62px;
   margin-bottom: 30px;
+}
+#posts:hover {
+  color: #e21358;
+  background: #db80a0;
+}
+
+.rodape a {
+  color: #ffffff;
 }
 @media only screen and (max-width: 950px) {
   #banner1 img {
@@ -218,6 +237,7 @@ h2 {
     display: flex;
     align-content: center;
     justify-content: center;
+    width: 100%;
   }
 }
 

@@ -47,6 +47,9 @@ p {
   padding: 50px;
   align-items: center;
 }
+.container-hand:hover {
+  box-shadow: 1px 4px 4px 0px rgb(0 0 0 / 40%);
+}
 
 h2 {
   font-weight: 500;
