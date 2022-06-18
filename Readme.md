@@ -1,6 +1,6 @@
-# Hands On!
+# Hands On #1!
 
-Desafio da Gama Academy -Dindin 💸
+Desafio da Gama Academy - Dindin 💸
 
 # Sobre
 
@@ -10,5 +10,5 @@ O objetivo era desenvolver um site para uma empresa fictícia de educação fina
 
  <li> HTML -> Aplicando SEO
  <li> CSS -> Trabalhando com responsividade
- <li> Figma -> Onde foi dado um layout
+ <li> Figma -> onde foi dado um layout
  <li> Javascript -> Primeiros passos com o JS
